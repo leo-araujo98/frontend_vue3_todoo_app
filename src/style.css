@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_body {
+  @apply flex gap-32 mx-auto p-2.5 bg-purple-600 border-none items-center justify-center
+}
+
+.btn_nav_default {
+  @apply bg-gray-900 text-white px-6 py-2 rounded-md
+}
